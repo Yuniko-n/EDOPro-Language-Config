@@ -1,0 +1,109 @@
+{
+	"repos": [
+		{
+			"url": "https://github.com/Yuniko-n/EDOPro-LFLists",
+			"repo_name": "EDOPro 禁限卡表",
+			"repo_path": "./repositories/lflists",
+			"lflist_path": ".",
+			"should_update": true,
+			"should_read": true
+		},
+		{
+			"url": "https://github.com/ProjectIgnis/Puzzles",
+			"repo_name": "EDOPro 残局数据",
+			"repo_path": "./puzzles/Canon collection",
+			"should_update": true,
+			"should_read": true
+		},
+		{
+			"url": "https://github.com/ProjectIgnis/DeltaUtopia",
+			"repo_name": "EDOPro 游戏数据 (EN)",
+			"repo_path": "./repositories/delta-utopia",
+			"has_core": true,
+			"core_path": "bin",
+			"data_path": "",
+			"script_path": "script",
+			"should_update": true,
+			"should_read": true
+		},
+		{
+			"url": "https://github.com/Yuniko-n/EDOPro-Chinese-CDB",
+			"repo_name": "EDOPro 游戏数据 (CN)",
+			"repo_path": "./repositories/delta-utopia-CN",
+			"data_path": "",
+			"should_update": true,
+			"should_read": true
+		},
+		{
+			"url": "https://gogs.ygo2020.link/Yuniko-n/YGO-chants-sound",
+			"repo_name": "EDOPro 音效数据",
+			"repo_path": "./sound/chants",
+			"should_update": true,
+			"should_read": true
+		}
+	],
+	"urls": [
+		{
+			"url": "default",
+			"type": "pic"
+		},
+		{
+			"url": "default",
+			"type": "field"
+		},
+		{
+			"url": "default",
+			"type": "cover"
+		},
+		{
+			"url": "http://dl.ygo2020.link/edopro/pics/{}.jpg",
+			"type": "pic"
+		},
+		{
+			"url": "http://dl.ygo2020.link/edopro/field/{}.jpg",
+			"type": "field"
+		},
+		{
+			"url": "http://dl.ygo2020.link/edopro/cover/{}.jpg",
+			"type": "cover"
+		}
+	],
+	"servers": [
+		{
+			"name": "中国大陆-华南 (QQ群：654724707)",
+			"address": "srvpro.ygo2020.link",
+			"duelport": 7911,
+			"roomaddress": "srvpro.ygo2020.link",
+			"roomlistport": 7922
+		},
+		{
+			"name": "欧盟中部 (Casual)",
+			"address": "185.227.110.90",
+			"duelport": 7912,
+			"roomaddress": "185.227.110.90",
+			"roomlistport": 7923
+		},
+		{
+			"name": "欧盟中部 (Competitive)",
+			"address": "185.227.110.90",
+			"duelport": 7911,
+			"roomaddress": "185.227.110.90",
+			"roomlistport": 7922
+		},
+		{
+			"name": "美国西部 (Casual)",
+			"address": "146.71.79.166",
+			"duelport": 7911,
+			"roomaddress": "146.71.79.166",
+			"roomlistport": 7922
+		},
+		{
+			"name": "美国西部 (Competitive)",
+			"address": "146.71.79.166",
+			"duelport": 7912,
+			"roomaddress": "146.71.79.166",
+			"roomlistport": 7923
+		}
+	],
+	"posixPathExtension": "/usr/local/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands"
+}
