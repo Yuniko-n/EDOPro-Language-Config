@@ -1,24 +1,24 @@
 {
 	"repos": [
 		{
-			"url": "https://github.com.cnpmjs.org/Yuniko-n/EDOPro-LFLists",
+			"url": "https://gitee.com/Yuniko-n/EDOPro-LFLists",
 			"repo_name": "EDOPro 禁限卡表",
-			"repo_path": "./repositories/cnpmjs.org/lflists",
+			"repo_path": "./repositories/gitee.com/lflists",
 			"lflist_path": ".",
 			"should_update": true,
 			"should_read": true
 		},
 		{
-			"url": "https://github.com.cnpmjs.org/ProjectIgnis/Puzzles",
+			"url": "https://gitee.com/Yuniko-n/Puzzles",
 			"repo_name": "EDOPro 残局数据",
-			"repo_path": "./puzzles/Canon collection",
+			"repo_path": "./puzzles/Canon collection 2",
 			"should_update": true,
 			"should_read": true
 		},
 		{
-			"url": "https://github.com.cnpmjs.org/ProjectIgnis/DeltaUtopia",
+			"url": "https://gitee.com/Yuniko-n/DeltaUtopia",
 			"repo_name": "EDOPro 游戏数据 (EN)",
-			"repo_path": "./repositories/cnpmjs.org/delta-utopia",
+			"repo_path": "./repositories/gitee.com/delta-utopia",
 			"has_core": true,
 			"core_path": "bin",
 			"data_path": "",
@@ -27,9 +27,9 @@
 			"should_read": true
 		},
 		{
-			"url": "https://github.com.cnpmjs.org/Yuniko-n/EDOPro-Chinese-CDB",
+			"url": "https://gitee.com/Yuniko-n/EDOPro-Chinese-CDB",
 			"repo_name": "EDOPro 游戏数据 (CN)",
-			"repo_path": "./repositories/cnpmjs.org/delta-utopia-CN",
+			"repo_path": "./repositories/gitee.com/delta-utopia-CN",
 			"data_path": "",
 			"should_update": true,
 			"should_read": true
@@ -44,18 +44,6 @@
 	],
 	"urls": [
 		{
-			"url": "default",
-			"type": "pic"
-		},
-		{
-			"url": "default",
-			"type": "field"
-		},
-		{
-			"url": "default",
-			"type": "cover"
-		},
-		{
 			"url": "http://dl.ygo2020.link/edopro/pics/{}.jpg",
 			"type": "pic"
 		},
@@ -66,14 +54,33 @@
 		{
 			"url": "http://dl.ygo2020.link/edopro/cover/{}.jpg",
 			"type": "cover"
+		},
+		{
+			"url": "default",
+			"type": "pic"
+		},
+		{
+			"url": "default",
+			"type": "field"
+		},
+		{
+			"url": "default",
+			"type": "cover"
 		}
 	],
 	"servers": [
 		{
-			"name": "中国大陆-华南 (QQ群：654724707)",
+			"name": "中国广东 (QQ群：654724707)",
 			"address": "srvpro.ygo2020.link",
 			"duelport": 7911,
 			"roomaddress": "srvpro.ygo2020.link",
+			"roomlistport": 7922
+		},
+		{
+			"name": "中国香港 (QQ群：654724707)",
+			"address": "srvpro2.ygo2020.link",
+			"duelport": 7911,
+			"roomaddress": "srvpro2.ygo2020.link",
 			"roomlistport": 7922
 		},
 		{
